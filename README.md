@@ -16,6 +16,19 @@ BreadLog was originally built for 5940, but is designed to be general enough for
 
 ---
 
-## Basic Usage
+## Quick Start
+
+### Installation
+Place `BreadLog.java` under `src\main\java\frc\util`
+
+### Import
+At the top of `Robot.java`, place `import frc.util.BreadLog;`
+
+### Starting the logger
+In `RobotInit()`, place `BreadLog.start();` putting `true` or `false` in as a parameter for whether or not it should log the output or not respectively
+
+## Docs and Usage
+
+### Starting Logger
 
 ### Logging Numbers
