@@ -25,10 +25,14 @@ Place `BreadLog.java` under `src\main\java\frc\util`
 At the top of `Robot.java`, place `import frc.util.BreadLog;`
 
 ### Starting the logger
-In `RobotInit()`, place `BreadLog.start();` putting `true` or `false` in as a parameter for whether or not it should log the output or not respectively
+In `RobotInit()`, place `BreadLog.start();` putting `true` or `false` in as a parameter for whether or not it should log the output or not, respectively
+
+### Start logging!!
+
+---
 
 ## Docs and Usage
 
-### Starting Logger
-
-### Logging Numbers
+### Starting/Stopping Logger
+To start the logger with logging to a file, use `BreadLog.start(true);`
+To start the logger without logging to a file, use `BreadLog.start(false);`
